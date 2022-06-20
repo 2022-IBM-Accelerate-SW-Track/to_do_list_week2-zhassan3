@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Button, TextField } from "@mui/material";
+import { Button, TextField, Avatar } from "@mui/material";
+import pic from "../assets/zhheadshot.jpg";
 
 class AddTodo extends Component {
   // Create a local react state of the this component with a content property set to nothing.
@@ -57,6 +58,7 @@ class AddTodo extends Component {
         >
           Add
         </Button>
+        <Avatar src={pic} />
       </div>
     );
   }
